@@ -39,6 +39,9 @@ class Main
       end
     end
   end
+  
+  private
+  # клиенту не нужно вызывать вызывать эти методы напрямую, вызываются из метода run
 
   def create_station
     system 'clear'
